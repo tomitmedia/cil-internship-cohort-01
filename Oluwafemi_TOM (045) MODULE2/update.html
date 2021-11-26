@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OLUWAFEMI TODO-LIST</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>OLUWAFEMI TODO-LIST</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="ADD TASK" />
+		</form>
+	</header>
+
+	<main>
+		<section class="task-list">
+			<div>
+				
+				<button
+					id="new-task-submit"
+					onclick="addTodo()">
+					UPDATE-API-TODO-LIST
+				</button>
+				<a href="index.html">
+					<button
+					id="new-task-submit"
+					onclick="showTodo()">
+					FETCH-API-TODO-LIST
+					</button>
+				</a>
+					<br> <br> <br> <br>
+				<h2>Tasks</h2> 
+				<div id="tasks">
+				</div>
+				<br> <br> <br> <br>
+
+				<div id="demo">
+					<br> <br> 
+				</div>
+					<br> <br> <br> <br>
+			<div>
+
+			<div>
+				<div class="text_input">
+					<input id="text_input" 
+					placeholder="What do you have planned?" type="text" />
+					
+					<button id="btn" onclick=" addTodo()">ADD-API-TODO</button>
+					<br> <br> <br> <br>
+					<br> <br> <br> <br>
+					<br> <br> <br> <br> 
+				</div>
+		
+			</div>
+		</section>
+	</main>
+
+	<script src="update.js"></script>
+
+</body>
+</html>
