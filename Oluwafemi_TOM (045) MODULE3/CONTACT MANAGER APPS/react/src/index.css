@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container-jum {
+  min-height: 80vh;
+  background-image: url("https://images.pexels.com/photos/798/bench-people-smartphone-sun.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  border-radius: 0px;
+}
+.avatar-img {
+  width: 50%;
+  border-radius: 50%;
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+}
+[data-letters]:before {
+  content: attr(data-letters);
+  display: inline-block;
+  font-size: 2em;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgb(36, 36, 36);
+  vertical-align: middle;
+  margin-right: 1em;
+  color: white;
+  margin-right: 1px;
+}
+.btn-custom {
+  background-color: antiquewhite;
+}
+.btn-custom-delete {
+  background-color: rgb(255, 154, 154);
+  margin-left: 5px;
+}
+.btn-custom-whatsapp {
+  background-color: rgb(194, 255, 154);
+  margin-left: 5px;
+}
+.form-add {
+  min-height: 20vh;
+}
+.form-add-div {
+  top: 100px;
+  left: 30px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.555);
+  backdrop-filter: blur(5px);
+  min-width: 50vw;
+  min-height: 10vh;
+  border-radius: 5px;
+  padding: 30px;
+}
